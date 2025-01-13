@@ -1,0 +1,6 @@
+Running the networkQuality takes a few moments, longer than I want to take up with a Jamf Recon.  I like to run it in a policy then read the output with an EA.
+
+Make a policy in Jamf and run
+  /usr/bin/networkQuality -s -v > /var/log/netQualOut.txt
+This will feed the EAs.
+
